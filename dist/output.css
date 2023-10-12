@@ -1723,31 +1723,6 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
-.bg-red-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
-}
-
-.bg-pink-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
-}
-
-.bg-pink-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(157 23 77 / var(--tw-bg-opacity));
-}
-
-.bg-pink-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1862,18 +1837,6 @@ video {
   padding: 0.75rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1928,11 +1891,6 @@ video {
 
 .align-super {
   vertical-align: super;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -2011,14 +1969,14 @@ video {
   color: rgb(51 102 153 / .35);
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-green-200 {
-  --tw-text-opacity: 1;
-  color: rgb(187 247 208 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -4749,7 +4707,7 @@ blockquote {
   z-index: 1;
   background-color: #0f0f11;
   align-items: flex-start;
-  padding-top: 3em;
+  padding-top: 1em;
   padding-left: 0;
   padding-right: 0;
   position: relative;
@@ -9071,6 +9029,62 @@ blockquote {
   #w-node-_01b9e3e3-333e-e152-3ec1-d3a21e6c7777-dfcd9118, #w-node-_01b9e3e3-333e-e152-3ec1-d3a21e6c777b-dfcd9118, #w-node-_01b9e3e3-333e-e152-3ec1-d3a21e6c777f-dfcd9118, #w-node-_01b9e3e3-333e-e152-3ec1-d3a21e6c7783-dfcd9118 {
     grid-area: span 1 / span 2 / span 1 / span 2;
   }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion-faq-section{
+  font-size: 18px;
+  font-family: sans-serif;
+  border: 2px solid ;
+  /* border-image: linear-gradient(83deg, #3de85d, #03f6f4 28%, #03f6f4 46%, #30b6ff 62%, #00f0ff 75%, #6a54ff);;
+  border-image-slice: 1; */
+  border-radius: 15px;
+  /* border-image: linear-gradient( #3de85d,  #6a54ff); */
+}
+
+.accordion {
+  font-size: 18px;
+  background-color: #222;
+  border-radius: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 30px 35px 30px 35px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+/* .active, .accordion:hover {
+  background-color: #ccc;
+} */
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+  border-radius: 15px;
+  padding: 30px 35px 30px 35px;
+  background-color: #222;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }
 
 @media (min-width: 640px) {

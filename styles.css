@@ -2409,7 +2409,7 @@ html {
     z-index: 1;
     background-color: #0f0f11;
     align-items: flex-start;
-    padding-top: 3em;
+    padding-top: 1em;
     padding-left: 0;
     padding-right: 0;
     position: relative;
@@ -6724,8 +6724,11 @@ html {
 .accordion-faq-section{
   font-size: 18px;
   font-family: sans-serif;
-  border: 2px solid;
+  border: 2px solid ;
+  /* border-image: linear-gradient(83deg, #3de85d, #03f6f4 28%, #03f6f4 46%, #30b6ff 62%, #00f0ff 75%, #6a54ff);;
+  border-image-slice: 1; */
   border-radius: 15px;
+
   /* border-image: linear-gradient( #3de85d,  #6a54ff); */
 }
 
