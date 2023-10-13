@@ -6101,7 +6101,9 @@ blockquote {
   h3 {
     font-size: 32px;
   }
-
+  .prize-1 {
+    order: -1;
+  }
   h4 {
     font-size: 30px;
   }
