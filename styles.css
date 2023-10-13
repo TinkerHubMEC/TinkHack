@@ -6810,9 +6810,10 @@ img {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion-faq-section{
+  overflow: hidden;
   font-size: 18px;
   font-family: sans-serif;
-  border: 2px solid ;
+  border: none;
   /* border-image: linear-gradient(83deg, #3de85d, #03f6f4 28%, #03f6f4 46%, #30b6ff 62%, #00f0ff 75%, #6a54ff);;
   border-image-slice: 1; */
   border-radius: 15px;
@@ -6823,7 +6824,6 @@ img {
 .accordion {
   font-size: 18px;
   background-color: #222;
-  border-radius: 15px;
   color: #ffffff;
   cursor: pointer;
   padding: 30px 35px 30px 35px;
@@ -6832,20 +6832,25 @@ img {
   border: none;
   outline: none;
   transition: 0.4s;
+  font-size: large;
+  font-weight: 700;
+  margin-top: 8px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-/* .active, .accordion:hover {
-  background-color: #ccc;
-} */
+.active, .accordion:hover {
+  background-color: #E8E2E2;
+  color: #000;
+} 
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  border-radius: 15px; 
   padding: 30px 35px 30px 35px;
-  background-color: #222;
+  background-color: #E8E2E2;
+  color: #000;
   display: none;
   overflow: hidden;
+  margin-top: 7px;
 }
 .accordion:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
@@ -6857,4 +6862,26 @@ img {
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+.aboutsection
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutcontent
+{
+  line-height: 80px;
+  font-size: 1.5rem;
+  color: #545454;
+  align-items: center;
+}
+
+.h2{
+  font-size: 5rem;
+  margin-bottom: 150px;
+  margin-top: 500px;
 }
