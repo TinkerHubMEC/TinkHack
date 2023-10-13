@@ -6773,3 +6773,24 @@ html {
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+
+.aboutsection
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutcontent
+{
+  line-height: 70px;
+  font-size: 1.5rem;
+  color: #545454;
+}
+
+.h2{
+  font-size: 5rem;
+  margin-bottom: 150px;
+  margin-top: 500px;
+}
