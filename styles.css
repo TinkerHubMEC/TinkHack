@@ -6725,6 +6725,7 @@ html {
   overflow: hidden;
   font-size: 18px;
   font-family: sans-serif;
+  border: none;
   /* border-image: linear-gradient(83deg, #3de85d, #03f6f4 28%, #03f6f4 46%, #30b6ff 62%, #00f0ff 75%, #6a54ff);;
   border-image-slice: 1; */
   border-radius: 15px;
@@ -6733,7 +6734,6 @@ html {
 }
 
 .accordion {
-  
   font-size: 18px;
   background-color: #222;
   color: #ffffff;
@@ -6746,6 +6746,7 @@ html {
   transition: 0.4s;
   font-size: large;
   font-weight: 700;
+  margin-top: 8px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -6761,6 +6762,7 @@ html {
   color: #000;
   display: none;
   overflow: hidden;
+  margin-top: 7px;
 }
 .accordion:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
