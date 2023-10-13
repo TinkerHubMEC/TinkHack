@@ -1800,7 +1800,19 @@
           } else {
             panel.style.display = "block";
           }
+          closeOtherAccordion(panel);
         });
+      }
+
+      function closeOtherAccordion(props){
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+          if(acc[i].nextElementSibling != props){
+            acc[i].nextElementSibling.style.display = "none";
+            acc[i].classList.remove("active");
+          }
+        }
       }
       </script>
   </body>
