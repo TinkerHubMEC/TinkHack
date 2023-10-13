@@ -1236,19 +1236,14 @@ html {
   
  /* contacts style  */
  .team-member{
- 
-  height: 40%;
-  width: 100%;
-  
-  padding:0 5% 10% 5%;
-  
- 
+   height: 40%;
+   width: 100%;
+   padding:0 5% 10% 5%;
  }
  .contact-card{
   
   display: flex;
   width: 100%;
-  
   height: 100%;
   background-color:#0F0F11;
   gap: 3rem;
@@ -1257,17 +1252,17 @@ html {
  }
 .member-card{
     
-    padding: 2%;
-    display:flex;
-    justify-content: baseline;
-    align-items:center;
-    flex-direction: column;
-    width: 31%;
-    height: 50%;
-    gap: 2rem;
-    background-color:#242426;
-    border-radius: 20px;
-    box-shadow: 2px 2px 10px black;
+   padding: 2%;
+   display:flex;
+   justify-content: baseline;
+   align-items:center;
+   flex-direction: column;
+   width: 40%;
+   height: 60%;
+   gap: 2rem;
+   background-color:#242426;
+   border-radius: 20px;
+   box-shadow: 2px 2px 10px black;
    
     
 }
@@ -1278,9 +1273,7 @@ html {
   height: 5.5rem;
   background-color: #000;
   border-radius: 50%;
-
 }
-
 .member-name{
   display: flex;
   justify-content: center;
@@ -1300,11 +1293,13 @@ html {
   align-items: center;
   width: 50%;
   height: 10%;
-  gap: 2px;
+  gap: 1rem;
+  padding: 2%;
 
 }
 .member-logo{
-  
+  display: flex;
+  gap: 1rem; 
   width: 30%;
   height: 90%;
 }
@@ -1316,10 +1311,27 @@ img {
   
   
 }
-
-
-
-
+@media screen and (min-width:1280){
+  .member-card{
+    width: 80%;
+  }
+  .contact-card{
+    display: flex;
+    width: 100%;
+    
+  }
+}
+@media screen and (max-width: 768px){
+  .contact-card{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .member-card{
+    width: 60%;
+  }
+  
+}
   .w-slider-nav {
     z-index: 2;
     height: 40px;
