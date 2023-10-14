@@ -3825,6 +3825,15 @@ blockquote {
   position: relative;
   top: 0;
 }
+.animation-section-1 {
+  z-index: 2;
+  min-height: 200vh;
+  background-image: linear-gradient(rgba(15, 15, 17, 0), #0f0f11 9%, #0f0f11);
+  margin-top: 60vh;
+  padding-top: 10%;
+  position: relative;
+  top: 0;
+}
 
 .main-hero-bg-holder {
   opacity: 1;
@@ -4494,6 +4503,7 @@ blockquote {
 .play-icon-image {
   position: relative;
   left: 7px;
+  width: 60px;
 }
 
 .pricing-tabs {
