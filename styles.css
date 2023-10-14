@@ -3643,10 +3643,19 @@ blockquote {
 }
 
 .text-gradient-colored {
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(87deg, #3de85d, #03f6f4 57%, #6a54ff);
-  -webkit-background-clip: text;
+  background: linear-gradient(91deg, #43E97B 14.99%, #6AAFFF 151.09%);
   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hack
+{
+  text-align: center;
+
+font-style: normal;
+font-weight: 400;
+line-height: 120px; /* 75.949% */
 }
 
 .grid-clients {
@@ -5813,6 +5822,7 @@ blockquote {
 
 @media screen and (max-width: 991px) {
   .nav-menu {
+    min-height: 100vh;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     background-color: #0f0f11;
@@ -5842,9 +5852,10 @@ blockquote {
   }
 
   .nav-link-holder {
+    height: 100%;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 5px 0;
     display: flex;
   }
@@ -5913,6 +5924,8 @@ blockquote {
   .nav-link {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 2rem;
+    font-size: 1.5rem;
   }
 
   .link-background {
@@ -7126,21 +7139,5 @@ blockquote {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-.aboutsection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.aboutcontent {
-  line-height: 80px;
-  font-size: 1.5rem;
-  color: #545454;
-  align-items: center;
-}
 
-.h2 {
-  font-size: 5rem;
-  margin-bottom: 150px;
-  margin-top: 500px;
-}
+
