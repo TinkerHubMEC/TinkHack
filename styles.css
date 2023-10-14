@@ -1350,7 +1350,7 @@ textarea.w-select {
 }
 .member-circle {
   display: flex;
-  background: url(./Ellipse\ 2\ \(1\).png);
+  background: url(./Ellipse\2\\(1\).png);
   width: 5.5rem;
   height: 5.5rem;
   background-color: #000;
@@ -1387,19 +1387,15 @@ img {
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width:765px) {
-
-  .contact-card{
-    
+@media screen and (max-width: 765px) {
+  .contact-card {
     display: flex;
     flex-direction: column;
-
   }
-  .member-card{
+  .member-card {
     padding: 5%;
     width: 70%;
   }
-  
 }
 
 .w-slider-nav {
@@ -4391,8 +4387,8 @@ blockquote {
 .card-item-content {
   z-index: 1;
   width: 100%;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: flex-start;
   display: flex;
   position: relative;
@@ -4410,8 +4406,8 @@ blockquote {
 }
 
 .feature-icon {
-  width: 45px;
-  height: 40px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
 }
 
@@ -7084,7 +7080,6 @@ blockquote {
   /* border-image: linear-gradient(83deg, #3de85d, #03f6f4 28%, #03f6f4 46%, #30b6ff 62%, #00f0ff 75%, #6a54ff);;
   border-image-slice: 1; */
   border-radius: 15px;
-
 }
 
 .accordion {
