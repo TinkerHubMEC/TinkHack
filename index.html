@@ -1881,6 +1881,15 @@
         }
       }
       </script>
+      <script>
+        var mitem = document.getElementsByClassName("nav-link");
+        for(i =0; i<mitem.length; i++){
+          mitem[i].addEventListener("click", function(){
+            var navbtn = document.getElementsByClassName("menu-button");
+            navbtn[0].click();
+          });
+        }
+      </script>
   </body>
 </html>
 

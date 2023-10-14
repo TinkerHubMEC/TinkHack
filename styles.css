@@ -5817,6 +5817,7 @@ blockquote {
 
 @media screen and (max-width: 991px) {
   .nav-menu {
+    min-height: 100vh;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     background-color: #0f0f11;
@@ -5846,9 +5847,10 @@ blockquote {
   }
 
   .nav-link-holder {
+    height: 100%;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 5px 0;
     display: flex;
   }
@@ -5917,6 +5919,8 @@ blockquote {
   .nav-link {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 2rem;
+    font-size: 1.5rem;
   }
 
   .link-background {
