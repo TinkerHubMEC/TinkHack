@@ -6615,10 +6615,12 @@ blockquote {
   }
 
   .hack {
-    margin-top: 30px;
-    font-size: 148px;
+    margin-top: 5px;
+    font-size: 265%;
   }
-
+  .tinkfont {
+    font-size: 265%;
+  }
   h4 {
     font-size: 24px;
     font-weight: 600;
