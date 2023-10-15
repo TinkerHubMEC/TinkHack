@@ -3827,8 +3827,7 @@ blockquote {
 .hero-text-xl {
   text-transform: capitalize;
   margin-top: 0;
-  font-size: 160px;
-  font-weight: 800;
+  font-size: 16rem;
 }
 
 .tinkfont {
@@ -3837,26 +3836,26 @@ blockquote {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-  font-family: sfpro;
-  font-size: 158px;
-  font-weight: 800;
-  line-height: 120px;
+font-family: sfpro;
+font-size: 158px;
+font-weight: 800;
+line-height: 120px;
 }
-.tinkfont {
+.tinkfont{
   text-transform: lowercase;
   padding-right: 15px;
 }
 
+
 .hack {
   text-align: center;
   font-family: Richieschichue;
-  font-size: 158px;
+  font-size: 12rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120px;
+  line-height: 120px; 
   text-transform: capitalize;
 }
-
 .grid-clients {
   grid-column-gap: 1em;
   grid-row-gap: 1em;
@@ -6615,10 +6614,11 @@ blockquote {
   }
 
   .hack {
-    margin-top: 5px;
+    margin:5px 0 30px 0;
     font-size: 265%;
   }
   .tinkfont {
+    margin-top: 20px;
     font-size: 265%;
   }
   h4 {
@@ -7217,7 +7217,12 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
+
+  .hack{
+    font-size: 140px;
+  }
   #w-node-_74ab3314-1e2b-a768-0bb3-b25894c1a502-0a144c54 {
+
     grid-column: span 3 / span 3;
   }
 
