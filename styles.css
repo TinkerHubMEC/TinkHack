@@ -3980,7 +3980,7 @@ blockquote {
   min-height: 200vh;
   background-image: linear-gradient(rgba(15, 15, 17, 0), #0f0f11 9%, #0f0f11);
   margin-top: 100vh;
-  padding-top: 10%;
+  padding-top: 0;
   position: relative;
   top: 0;
 }
