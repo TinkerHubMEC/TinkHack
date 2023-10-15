@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-  font-family: 'Richieschichue';
-  src: local('Richieschichue'), url('Fonts/RICHIESCHICHUE-BF64dc8454a26c5.otf') format('opentype');
+  font-family: "Richieschichue";
+  src: local("Richieschichue"),
+    url("Fonts/RICHIESCHICHUE-BF64dc8454a26c5.otf") format("opentype");
 }
 @font-face {
-  font-family: 'sfpro';
-  src: local('sfpro'), url('Fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+  font-family: "sfpro";
+  src: local("sfpro"), url("Fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
 }
-
-
 
 html {
   -ms-text-size-adjust: 100%;
@@ -1084,6 +1083,7 @@ textarea.w-select {
     margin-bottom: 8%;
     order: 1;
   }
+
   .logo-1 {
     margin-bottom: 20%;
     margin-top: 10%;
@@ -1519,7 +1519,7 @@ textarea.w-select {
 }
 .member-circle {
   display: flex;
-  background: url(./Ellipse\ 2\ \(1\).png);
+  background: url(./Ellipse\2\\(1\).png);
   width: 5.5rem;
   height: 5.5rem;
   background-color: #000;
@@ -3836,17 +3836,14 @@ blockquote {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+font-family: sfpro;
+font-size: 158px;
+font-weight: 800;
+line-height: 120px;
+}
+.tinkfont{
   text-transform: lowercase;
-  font-family: sfpro;
-
-
-  font-size: 10rem;
-
-
-  font-weight: 800;
-
-
-  line-height: 8rem;
+  padding-right: 15px;
 }
 
 
@@ -3856,7 +3853,7 @@ blockquote {
   font-size: 12rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 10rem; 
+  line-height: 120px; 
   text-transform: capitalize;
 }
 .grid-clients {
@@ -3982,7 +3979,7 @@ blockquote {
   min-height: 200vh;
   background-image: linear-gradient(rgba(15, 15, 17, 0), #0f0f11 9%, #0f0f11);
   margin-top: 100vh;
-  padding-top: 10%;
+  padding-top: 0;
   position: relative;
   top: 0;
 }
@@ -6611,7 +6608,19 @@ blockquote {
     font-size: 26px;
     font-weight: 600;
   }
+  .hero-text-xl {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .hack {
+    margin:5px 0 30px 0;
+    font-size: 265%;
+  }
+  .tinkfont {
+    margin-top: 20px;
+    font-size: 265%;
+  }
   h4 {
     font-size: 24px;
     font-weight: 600;
@@ -7208,7 +7217,12 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
+
+  .hack{
+    font-size: 140px;
+  }
   #w-node-_74ab3314-1e2b-a768-0bb3-b25894c1a502-0a144c54 {
+
     grid-column: span 3 / span 3;
   }
 
