@@ -3827,8 +3827,7 @@ blockquote {
 .hero-text-xl {
   text-transform: capitalize;
   margin-top: 0;
-  font-size: 160px;
-  font-weight: 800;
+  font-size: 16rem;
 }
 
 .tinkfont {
@@ -3837,26 +3836,29 @@ blockquote {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-font-family: sfpro;
-font-size: 158px;
-font-weight: 800;
-line-height: 120px;
-}
-.tinkfont{
   text-transform: lowercase;
-  padding-right: 15px;
+  font-family: sfpro;
+
+
+  font-size: 10rem;
+
+
+  font-weight: 800;
+
+
+  line-height: 8rem;
 }
+
 
 .hack {
   text-align: center;
   font-family: Richieschichue;
-  font-size: 158px;
+  font-size: 12rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120px; 
+  line-height: 10rem; 
   text-transform: capitalize;
 }
-
 .grid-clients {
   grid-column-gap: 1em;
   grid-row-gap: 1em;
