@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Richieschichue';
+  src: local('Richieschichue'), url('Fonts/RICHIESCHICHUE-BF64dc8454a26c5.otf') format('opentype');
+}
+@font-face {
+  font-family: 'sfpro';
+  src: local('sfpro'), url('Fonts/SFPRODISPLAYBOLD.OTF') format('opentype');
+}
+
+
 
 html {
   -ms-text-size-adjust: 100%;
@@ -3821,19 +3831,30 @@ blockquote {
   font-weight: 800;
 }
 
-.text-gradient-colored {
+.tinkfont {
   background: linear-gradient(91deg, #43e97b 14.99%, #6aafff 151.09%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
+font-family: sfpro;
+font-size: 158px;
+font-weight: 800;
+line-height: 120px;
+}
+.tinkfont{
+  text-transform: lowercase;
+  padding-right: 15px;
 }
 
 .hack {
   text-align: center;
-
+  font-family: Richieschichue;
+  font-size: 158px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120px; /* 75.949% */
+  line-height: 120px; 
+  text-transform: capitalize;
 }
 
 .grid-clients {
