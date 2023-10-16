@@ -3837,15 +3837,14 @@ blockquote {
   -webkit-text-fill-color: transparent;
   text-align: center;
 font-family: sfpro;
-font-size: 158px;
-font-weight: 800;
+font-size: 179px;
+font-weight: 900;
 line-height: 120px;
 }
 .tinkfont{
   text-transform: lowercase;
   padding-right: 15px;
 }
-
 
 .hack {
   text-align: center;
