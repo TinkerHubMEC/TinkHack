@@ -3837,8 +3837,7 @@ blockquote {
 
 .hero-text-xl {
   text-transform: capitalize;
-  margin-top: 0;
-  font-size: 12rem;
+  font-size: 9rem;
 }
 
 .tinkfont {
@@ -6109,7 +6108,7 @@ line-height: 120px;
   }
 
   .hero-text {
-    font-size: 80px;
+    font-size: 20px;
   }
 
   .style-guide-left-panel {
@@ -7391,4 +7390,8 @@ line-height: 120px;
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+.hpimage
+{
+  width: 80%;
 }
