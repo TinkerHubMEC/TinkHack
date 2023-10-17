@@ -214,12 +214,12 @@ legend {
   align-items: center;
 }
 
-.sponser-logo-container-1 {
+/* .sponser-logo-container-1 {
   display: flex;
   justify-content: space-between;
   width: 100vh;
   margin-bottom: 8%;
-}
+} */
 .sponser-logo-container-2 {
   display: flex;
   justify-content: space-evenly;
