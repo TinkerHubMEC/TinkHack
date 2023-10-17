@@ -3837,7 +3837,7 @@ blockquote {
   -webkit-text-fill-color: transparent;
   text-align: center;
 font-family: sfpro;
-font-size: 179px;
+font-size: 8rem;
 font-weight: 900;
 line-height: 120px;
 }
@@ -3849,7 +3849,7 @@ line-height: 120px;
 .hack {
   text-align: center;
   font-family: Richieschichue;
-  font-size: 12rem;
+  font-size: 8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 120px; 
@@ -4164,6 +4164,8 @@ line-height: 120px;
 .card.pricing-card {
   height: 100%;
   padding: 2em;
+  justify-content: center;
+  padding: 4vh 0;
 }
 
 .card.pricing-card.main-pricing-card {
@@ -4346,11 +4348,16 @@ line-height: 120px;
 
 .pricing-item {
   height: 100%;
+  padding : 4vh 0;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   display: flex;
 }
+
+
+  
+
 
 .pricing-type {
   color: rgba(255, 255, 255, 0.8);
@@ -6596,6 +6603,16 @@ line-height: 120px;
 }
 
 @media screen and (max-width: 479px) {
+
+  .pricing-item , .card.pricing-card{
+    margin: 0 2em;
+  }
+  .pricing-item{
+    padding: 0.75em 0;
+  }
+  .prize-pool{
+    font-size: 4rem;
+  }
   h1 {
     font-size: 44px;
   }
