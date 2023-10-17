@@ -4163,6 +4163,8 @@ line-height: 120px;
 .card.pricing-card {
   height: 100%;
   padding: 2em;
+  justify-content: center;
+  padding: 4vh 0;
 }
 
 .card.pricing-card.main-pricing-card {
@@ -4345,11 +4347,16 @@ line-height: 120px;
 
 .pricing-item {
   height: 100%;
+  padding : 4vh 0;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   display: flex;
 }
+
+
+  
+
 
 .pricing-type {
   color: rgba(255, 255, 255, 0.8);
@@ -6595,6 +6602,16 @@ line-height: 120px;
 }
 
 @media screen and (max-width: 479px) {
+
+  .pricing-item , .card.pricing-card{
+    margin: 0 2em;
+  }
+  .pricing-item{
+    padding: 0.75em 0;
+  }
+  .prize-pool{
+    font-size: 4rem;
+  }
   h1 {
     font-size: 44px;
   }
