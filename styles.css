@@ -4041,6 +4041,7 @@ line-height: 120px;
   position: absolute;
   top: -2%;
   bottom: auto;
+  padding: 2%;
   left: 6%;
   right: auto;
 }
@@ -6433,8 +6434,8 @@ line-height: 120px;
   }
 
   .hero-animation {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .dashboard-app-holder {
