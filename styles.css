@@ -1402,7 +1402,7 @@ textarea.w-select {
 
 @media (max-width: 767px) {
   .timeline-1 {
-    max-width: 98%;
+    max-width: 8%;
     padding: 25px;
   }
 }
@@ -2853,9 +2853,20 @@ blockquote {
   overflow: hidden;
 }
 
-.nav-link-holder {
-  padding-left: 10px;
+.register {
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 0px;
+  padding-bottom: 1%;
+  opacity: .8;
+  
 }
+ .register:hover{
+
+  transition: 0.5s;
+  opacity: 1;
+}
+
 
 .white-50pct {
   color: rgba(255, 255, 255, 0.5);
@@ -3479,7 +3490,7 @@ blockquote {
 .nav-link {
   z-index: 1;
   height: 100%;
-  color: rgba(255, 255, 255, 0.8);
+  color: white !important;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -3491,10 +3502,10 @@ blockquote {
   position: relative;
 }
 
-.nav-link:hover,
-.nav-link.w--current {
-  color: #fff;
+.nav-link,.register:hover{
+  opacity: 1;
 }
+
 
 .link-background {
   z-index: -1;
@@ -4040,6 +4051,7 @@ line-height: 120px;
   position: absolute;
   top: -2%;
   bottom: auto;
+  padding: 2%;
   left: 6%;
   right: auto;
 }
@@ -4162,6 +4174,8 @@ line-height: 120px;
 .card.pricing-card {
   height: 100%;
   padding: 2em;
+  justify-content: center;
+  padding: 4vh 0;
 }
 
 .card.pricing-card.main-pricing-card {
@@ -4344,11 +4358,16 @@ line-height: 120px;
 
 .pricing-item {
   height: 100%;
+  padding : 4vh 0;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   display: flex;
 }
+
+
+  
+
 
 .pricing-type {
   color: rgba(255, 255, 255, 0.8);
@@ -5620,6 +5639,7 @@ line-height: 120px;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(87deg, #3de85d, #30b6ff 50%, #6a54ff);
   -webkit-background-clip: text;
+  font-weight: 700;
   background-clip: text;
 }
 
@@ -6432,8 +6452,8 @@ line-height: 120px;
   }
 
   .hero-animation {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
   .dashboard-app-holder {
@@ -6594,6 +6614,16 @@ line-height: 120px;
 }
 
 @media screen and (max-width: 479px) {
+
+  .pricing-item , .card.pricing-card{
+    margin: 0 2em;
+  }
+  .pricing-item{
+    padding: 0.75em 0;
+  }
+  .prize-pool{
+    font-size: 4rem;
+  }
   h1 {
     font-size: 44px;
   }
