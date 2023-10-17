@@ -7385,3 +7385,9 @@ blockquote {
 .hpimage {
   width: 80%;
 }
+
+@media (max-width: 376px) {
+  .hack {
+    font-size: 130px;
+  }
+}
