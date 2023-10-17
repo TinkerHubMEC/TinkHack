@@ -1402,7 +1402,7 @@ textarea.w-select {
 
 @media (max-width: 767px) {
   .timeline-1 {
-    max-width: 8%;
+    max-width: 90%;
     padding: 25px;
   }
 }
@@ -2858,15 +2858,12 @@ blockquote {
   border-radius: 20px;
   padding-left: 0px;
   padding-bottom: 1%;
-  opacity: .8;
-  
+  opacity: 0.8;
 }
- .register:hover{
-
+.register:hover {
   transition: 0.5s;
   opacity: 1;
 }
-
 
 .white-50pct {
   color: rgba(255, 255, 255, 0.5);
@@ -3299,7 +3296,7 @@ blockquote {
   color: #fff;
   text-align: left;
   background-image: url("https://assets.website-files.com/64749d7783acf7eedfcd9125/64749d7783acf7eedfcd917d_White-Arrow.svg"),
-  linear-gradient(91deg, #31ab5a 14.99%, #4270a4 151.09%);
+    linear-gradient(91deg, #31ab5a 14.99%, #4270a4 151.09%);
   background-position: 80%, 0 0;
   background-repeat: no-repeat, repeat;
   background-size: 14px, auto;
@@ -3502,10 +3499,10 @@ blockquote {
   position: relative;
 }
 
-.nav-link,.register:hover{
+.nav-link,
+.register:hover {
   opacity: 1;
 }
-
 
 .link-background {
   z-index: -1;
@@ -3846,12 +3843,12 @@ blockquote {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-font-family: sfpro;
-font-size: 8rem;
-font-weight: 900;
-line-height: 120px;
+  font-family: sfpro;
+  font-size: 8rem;
+  font-weight: 900;
+  line-height: 120px;
 }
-.tinkfont{
+.tinkfont {
   text-transform: lowercase;
   padding-right: 15px;
 }
@@ -3862,7 +3859,7 @@ line-height: 120px;
   font-size: 8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120px; 
+  line-height: 120px;
   text-transform: capitalize;
 }
 .grid-clients {
@@ -4358,16 +4355,12 @@ line-height: 120px;
 
 .pricing-item {
   height: 100%;
-  padding : 4vh 0;
+  padding: 4vh 0;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   display: flex;
 }
-
-
-  
-
 
 .pricing-type {
   color: rgba(255, 255, 255, 0.8);
@@ -6614,14 +6607,14 @@ line-height: 120px;
 }
 
 @media screen and (max-width: 479px) {
-
-  .pricing-item , .card.pricing-card{
+  .pricing-item,
+  .card.pricing-card {
     margin: 0 2em;
   }
-  .pricing-item{
+  .pricing-item {
     padding: 0.75em 0;
   }
-  .prize-pool{
+  .prize-pool {
     font-size: 4rem;
   }
   h1 {
@@ -6642,7 +6635,7 @@ line-height: 120px;
   }
 
   .hack {
-    margin:5px 0 30px 0;
+    margin: 5px 0 30px 0;
     font-size: 265%;
   }
   .tinkfont {
@@ -7245,12 +7238,10 @@ line-height: 120px;
 }
 
 @media screen and (max-width: 991px) {
-
-  .hack{
+  .hack {
     font-size: 140px;
   }
   #w-node-_74ab3314-1e2b-a768-0bb3-b25894c1a502-0a144c54 {
-
     grid-column: span 3 / span 3;
   }
 
@@ -7391,7 +7382,6 @@ line-height: 120px;
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
-.hpimage
-{
+.hpimage {
   width: 80%;
 }
