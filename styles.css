@@ -1402,7 +1402,7 @@ textarea.w-select {
 
 @media (max-width: 767px) {
   .timeline-1 {
-    max-width: 90%;
+    max-width: 85%;
     padding: 25px;
   }
 }
