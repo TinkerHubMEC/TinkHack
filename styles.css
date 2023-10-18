@@ -1381,6 +1381,108 @@ textarea.w-select {
   display: inline-block;
   position: relative;
 }
+
+/* SPONSOR SECTION */
+
+.sponsor-card {
+  z-index: 1;
+  min-height: 100px;
+  background-image: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.05)
+  );
+  border-radius: 20px;
+  padding: 4em;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5),
+    inset 0 1px 2px rgba(255, 255, 255, 0.1);
+  /* min-height: 100%; */
+  /* padding: 1.5em; */
+}
+
+.sponsor-card-noise-bg {
+  z-index: -1;
+  /* background-image: url("https://assets.website-files.com/64749d7783acf7eedfcd9125/64749d7783acf7eedfcd9174_Noisy.png"); */
+  background-position: 0 0;
+  background-size: auto;
+  background-color: re;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.sponsor-card-noise-bg.title{
+  opacity: 0.07;
+  background-color: rgb(255, 255, 255);
+}
+
+.sponsor-card-noise-bg.gold{
+  opacity: 0.03;
+  background-color: red;
+}
+
+.sponsor-holder {
+  /* height: 87vh; */
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-direction: row;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: stretch;
+  display: block;
+  position: relative;
+}
+
+.sponsor-card {
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+}
+.sponsor-slide {
+  width: 100%;
+  height: auto;
+  cursor: default;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sponsor-w-slide {
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+}
+.sponsor-card-container {
+  height: 100%;
+  max-width: 25vw;
+  min-height: 300px;
+  min-width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  position: relative;
+  overflow: visible;
+}
+
+.sponsor-card-container:hover {
+  text-decoration: none;
+}
+
 /* timelinesection */
 
 .timeline-1 {
@@ -6985,6 +7087,15 @@ blockquote {
 
   .feedback-card-container {
     min-height: 340px;
+  }
+
+  .sponsor-card-container {
+    min-height: 340px;
+  }
+
+  .sponsor-slide {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .slide {
