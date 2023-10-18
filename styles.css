@@ -2768,7 +2768,7 @@ blockquote {
   -webkit-backdrop-filter: blur(20px) saturate(180%) opacity(100%);
   background-color: rgba(12, 17, 28, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.125);
-  border-radius: 0px 0px 20px 10px;
+  border-radius: 15px;
 }
 
 .section.ligher-grey-bg-1 {
@@ -2776,6 +2776,7 @@ blockquote {
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(17, 25, 40, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 15px;
 }
 
 .section.ligher-grey-bg.zindex-3 {
@@ -4831,7 +4832,12 @@ blockquote {
   background-image: linear-gradient(87deg, #3de85d, #03f6f4 57%, #6a54ff);
   -webkit-background-clip: text;
   background-clip: text;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.38rem;
+}
+@media screen and (max-width: 640px) {
+  .prize-pool{
+    letter-spacing: 0.1rem;
+  }
 }
 .play-icon-image {
   position: relative;
@@ -6339,7 +6345,7 @@ blockquote {
   }
 
   .hero-text-xl {
-    font-size: 80px;
+    font-size: 2rem;
   }
 
   .device {
@@ -6822,7 +6828,7 @@ blockquote {
   }
 
   .container {
-    padding: 3em 1em;
+    padding: 3em 1.7em;
   }
 
   .hero-section.home-hero-section {
@@ -7522,7 +7528,7 @@ blockquote {
   background-color: #222;
   color: #ffffff;
   cursor: pointer;
-  padding: 30px 35px 30px 35px;
+  padding: 30px 30px 30px 30px;
   width: 100%;
   text-align: left;
   border: none;

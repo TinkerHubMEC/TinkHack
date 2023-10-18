@@ -1331,6 +1331,11 @@ video {
   justify-items: stretch;
 }
 
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1872,6 +1877,11 @@ video {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .py-2 {
@@ -5142,18 +5152,20 @@ blockquote {
   background-color: #222;
 }
 
+.section.ligher-grey-bg-2 {
+  backdrop-filter: blur(20px) saturate(180%) opacity(100%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%) opacity(100%);
+  background-color: rgba(12, 17, 28, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 15px;
+}
+
 .section.ligher-grey-bg-1 {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(17, 25, 40, 0.75);
   border: 1px solid rgba(255, 255, 255, 0.125);
-}
-
-.section.ligher-grey-bg-2 {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 15px;
 }
 
 .section.ligher-grey-bg.zindex-3 {
@@ -7217,7 +7229,13 @@ blockquote {
   background-image: linear-gradient(87deg, #3de85d, #03f6f4 57%, #6a54ff);
   -webkit-background-clip: text;
   background-clip: text;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.38rem;
+}
+
+@media screen and (max-width: 640px) {
+  .prize-pool{
+    letter-spacing: 0.1rem;
+  }
 }
 
 .play-icon-image {
@@ -9224,7 +9242,7 @@ blockquote {
   }
 
   .container {
-    padding: 3em 1em;
+    padding: 3em 1.7em;
   }
 
   .hero-section.home-hero-section {
