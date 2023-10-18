@@ -2763,6 +2763,14 @@ blockquote {
   background-color: #222;
 }
 
+.section.ligher-grey-bg-2 {
+  backdrop-filter: blur(20px) saturate(180%) opacity(100%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%) opacity(100%);
+  background-color: rgba(12, 17, 28, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 0px 0px 20px 10px;
+}
+
 .section.ligher-grey-bg-1 {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
