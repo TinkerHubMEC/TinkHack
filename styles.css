@@ -1444,10 +1444,10 @@ textarea.w-select {
 } */
 
 .sponsor-card-noise-bg.gold {
-  opacity: 0.51;
+  opacity: 0.41;
   background-image: linear-gradient(
     140deg,
-    rgba(169, 134, 65, 0.847),
+    rgba(146, 116, 57, 0.847),
     rgba(120, 113, 113, 0.05)
   );
   z-index: -1;
@@ -1476,8 +1476,15 @@ textarea.w-select {
   left: 0%;
   right: 0%;
 }
-.wizr-logo {
-  width: 10rem;
+.wizr-sponsor-logo {
+  width: 13rem;
+}
+
+.nest-sponsor-logo {
+  width: 9rem;
+}
+.hp-sponsor-logo {
+  width: 16rem;
 }
 .sponsor-holder {
   /* height: 87vh; */
@@ -4365,8 +4372,8 @@ blockquote {
 
 .card-noise-bg-1 {
   z-index: -1;
-  opacity: 0.1;
-  background-color: rgb(255, 255, 255);
+  opacity: 0.09;
+  background-image: linear-gradient( rgba(255, 255, 255), rgb(117, 114, 114), rgba(255,255,255));
   /* background-image: url("https://assets.website-files.com/64749d7783acf7eedfcd9125/64749d7783acf7eedfcd9174_Noisy.png"); */
   background-position: 0 0;
   background-size: auto;
@@ -4724,7 +4731,7 @@ blockquote {
 }
 
 .feedback-image-circle.feedback-color-rose {
-  background-color: #889c7e;
+  background-color: #929d8c;
 }
 
 .contact-links{
