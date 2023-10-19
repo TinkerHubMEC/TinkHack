@@ -1414,10 +1414,10 @@ textarea.w-select {
   right: 0%;
 }
 
-.sponsor-card-noise-bg.title{
+.sponsor-card-noise-bg.title {
   opacity: 0.3;
   background-image: linear-gradient(135deg, #3de85d, #03f6f4 49%, #6a54ff);
-   z-index: -1;
+  z-index: -1;
   /* background-image: url("https://assets.website-files.com/64749d7783acf7eedfcd9125/64749d7783acf7eedfcd9174_Noisy.png"); */
   background-position: 0 0;
   width: 100%;
@@ -1443,7 +1443,7 @@ textarea.w-select {
   }
 } */
 
-.sponsor-card-noise-bg.gold{
+.sponsor-card-noise-bg.gold {
   opacity: 0.51;
   background-image: linear-gradient(
     140deg,
@@ -1460,7 +1460,7 @@ textarea.w-select {
   right: 0%;
 }
 
-.sponsor-card-noise-bg.silver{
+.sponsor-card-noise-bg.silver {
   opacity: 0.51;
   background-image: linear-gradient(
     230deg,
@@ -1489,8 +1489,8 @@ textarea.w-select {
   align-items: stretch;
   display: block;
   position: relative; */
-  width:350px;
-  height:250px;
+  width: 350px;
+  height: 250px;
   margin: 2px;
 }
 
@@ -1710,8 +1710,8 @@ textarea.w-select {
 }
 img {
   object-fit: contain;
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
 }
 @media screen and (max-width: 765px) {
   .contact-card {
@@ -4835,7 +4835,7 @@ blockquote {
   letter-spacing: 0.38rem;
 }
 @media screen and (max-width: 640px) {
-  .prize-pool{
+  .prize-pool {
     letter-spacing: 0.1rem;
   }
 }
@@ -7162,7 +7162,7 @@ blockquote {
   .sponsor-card-container {
     min-height: 340px;
   }
-  .sponsor-holder{
+  .sponsor-holder {
     width: 280px;
     height: 230px;
   }
@@ -7577,20 +7577,20 @@ blockquote {
   }
 }
 
-@media (max-width:376px){
-  .flex-center-text{
+@media (max-width: 376px) {
+  .flex-center-text {
     font-size: 100px;
   }
 }
 
-@media (max-width:400px){
-  .hero-text{
+@media (max-width: 400px) {
+  .hero-text {
     width: 80px;
   }
 }
 
-@media (max-width:400px){
-  hero-buttons-holder{
+@media (max-width: 400px) {
+  hero-buttons-holder {
     padding-top: 100px;
   }
 }
