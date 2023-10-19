@@ -1476,7 +1476,9 @@ textarea.w-select {
   left: 0%;
   right: 0%;
 }
-
+.wizr-logo {
+  width: 10rem;
+}
 .sponsor-holder {
   /* height: 87vh; */
   /* grid-column-gap: 16px;
