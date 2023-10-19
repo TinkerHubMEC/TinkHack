@@ -3787,7 +3787,7 @@ textarea.w-select {
   right: 0%;
 }
 
-.sponsor-card-noise-bg.title{
+.sponsor-card-noise-bg.title {
   opacity: 0.3;
   background-image: linear-gradient(135deg, #3de85d, #03f6f4 49%, #6a54ff);
   z-index: -1;
@@ -3816,7 +3816,7 @@ textarea.w-select {
   }
 } */
 
-.sponsor-card-noise-bg.gold{
+.sponsor-card-noise-bg.gold {
   opacity: 0.51;
   background-image: linear-gradient(
     140deg,
@@ -3833,7 +3833,7 @@ textarea.w-select {
   right: 0%;
 }
 
-.sponsor-card-noise-bg.silver{
+.sponsor-card-noise-bg.silver {
   opacity: 0.51;
   background-image: linear-gradient(
     230deg,
@@ -3850,6 +3850,10 @@ textarea.w-select {
   right: 0%;
 }
 
+.wizr-logo {
+  width: 10rem;
+}
+
 .sponsor-holder {
   /* height: 87vh; */
   /* grid-column-gap: 16px;
@@ -3862,8 +3866,8 @@ textarea.w-select {
   align-items: stretch;
   display: block;
   position: relative; */
-  width:350px;
-  height:250px;
+  width: 350px;
+  height: 250px;
   margin: 2px;
 }
 
@@ -7105,6 +7109,28 @@ blockquote {
   background-color: #ffc7d6;
 }
 
+.contact-links{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.contact-icon{
+  width: 20px;
+  height: 20px;
+  box-sizing: content-box;
+  padding: 10px 5px;
+}
+
+@media screen and (max-width: 640px){
+  .contact-icon{
+    width: 17px;
+    height: 17px;
+    box-sizing: content-box;
+    padding: 3px 5px;
+  }
+}
+
 .slide {
   width: 80%;
   height: auto;
@@ -7233,7 +7259,7 @@ blockquote {
 }
 
 @media screen and (max-width: 640px) {
-  .prize-pool{
+  .prize-pool {
     letter-spacing: 0.1rem;
   }
 }
@@ -8719,8 +8745,9 @@ blockquote {
   .nav-link {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 2rem;
-    font-size: 1.5rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    font-size: 1.4rem;
   }
 
   .link-background {
@@ -8750,7 +8777,7 @@ blockquote {
   }
 
   .hero-text-xl {
-    font-size: 80px;
+    font-size: 2rem;
   }
 
   .device {
@@ -9576,7 +9603,7 @@ blockquote {
     min-height: 340px;
   }
 
-  .sponsor-holder{
+  .sponsor-holder {
     width: 280px;
     height: 230px;
   }
@@ -9945,7 +9972,7 @@ blockquote {
   background-color: #222;
   color: #ffffff;
   cursor: pointer;
-  padding: 30px 35px 30px 35px;
+  padding: 30px 30px 30px 30px;
   width: 100%;
   text-align: left;
   border: none;
@@ -9993,9 +10020,25 @@ blockquote {
   width: 80%;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 400px) {
   .hack {
-    font-size: 130px;
+    font-size: 95px;
+  }
+}
+
+@media (max-width: 376px) {
+  .flex-center-text {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-text {
+    width: 80px;
+  }
+
+  hero-buttons-holder {
+    padding-top: 100px;
   }
 }
 
