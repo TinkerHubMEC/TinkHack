@@ -7386,8 +7386,26 @@ blockquote {
   width: 80%;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 400px) {
   .hack {
-    font-size: 130px;
+    font-size: 95px;
+  }
+}
+
+@media (max-width:376px){
+  .flex-center-text{
+    font-size: 100px;
+  }
+}
+
+@media (max-width:400px){
+  .hero-text{
+    width: 80px;
+  }
+}
+
+@media (max-width:400px){
+  hero-buttons-holder{
+    padding-top: 100px;
   }
 }
