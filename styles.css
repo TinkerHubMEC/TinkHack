@@ -4712,6 +4712,18 @@ blockquote {
   background-color: #ffc7d6;
 }
 
+.contact-links{
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.contact-icon{
+  width: 25px;
+  height: 25px;
+  box-sizing: content-box;
+  padding: 10px 5px;
+}
+
 .slide {
   width: 80%;
   height: auto;
