@@ -4726,8 +4726,8 @@ blockquote {
 
 @media screen and (max-width: 640px){
   .contact-icon{
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
     box-sizing: content-box;
     padding: 3px 5px;
   }
@@ -6348,6 +6348,8 @@ blockquote {
 
   .menu-icon {
     filter: invert();
+    height:24px;
+    width:24px;
   }
 
   .contact-form {
