@@ -1477,11 +1477,17 @@ textarea.w-select {
   right: 0%;
 }
 .wizr-sponsor-logo {
-  width: 13rem;
+  width: 12rem;
 }
 
 .nest-sponsor-logo {
-  width: 9rem;
+  width: 8rem;
+}
+.devfolio-sponsor-logo {
+  width: 10rem;
+}
+.polygon-sponsor-logo {
+  width: 12rem;
 }
 .hp-sponsor-logo {
   width: 16rem;

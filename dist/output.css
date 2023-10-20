@@ -807,8 +807,16 @@ video {
   display: none;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-20 {
   height: 5rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .w-24 {
@@ -3817,10 +3825,10 @@ textarea.w-select {
 } */
 
 .sponsor-card-noise-bg.gold {
-  opacity: 0.51;
+  opacity: 0.41;
   background-image: linear-gradient(
     140deg,
-    rgba(169, 134, 65, 0.847),
+    rgba(146, 116, 57, 0.847),
     rgba(120, 113, 113, 0.05)
   );
   z-index: -1;
@@ -3850,8 +3858,24 @@ textarea.w-select {
   right: 0%;
 }
 
-.wizr-logo {
+.wizr-sponsor-logo {
+  width: 12rem;
+}
+
+.nest-sponsor-logo {
+  width: 8rem;
+}
+
+.devfolio-sponsor-logo {
   width: 10rem;
+}
+
+.polygon-sponsor-logo {
+  width: 12rem;
+}
+
+.hp-sponsor-logo {
+  width: 16rem;
 }
 
 .sponsor-holder {
@@ -6757,6 +6781,21 @@ blockquote {
   right: 0%;
 }
 
+.card-noise-bg-1 {
+  z-index: -1;
+  opacity: 0.09;
+  background-image: linear-gradient( rgba(255, 255, 255), rgb(117, 114, 114), rgba(255,255,255));
+  /* background-image: url("https://assets.website-files.com/64749d7783acf7eedfcd9125/64749d7783acf7eedfcd9174_Noisy.png"); */
+  background-position: 0 0;
+  background-size: auto;
+  background-color: re;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
 .card-title {
   margin-top: 1.5rem;
   margin-bottom: 0.7rem;
@@ -7106,7 +7145,7 @@ blockquote {
 }
 
 .feedback-image-circle.feedback-color-rose {
-  background-color: #ffc7d6;
+  background-color: #929d8c;
 }
 
 .contact-links{
