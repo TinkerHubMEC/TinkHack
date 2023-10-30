@@ -1447,7 +1447,8 @@ textarea.w-select {
   opacity: 0.41;
   background-image: linear-gradient(
     140deg,
-    rgba(146, 116, 57, 0.847),
+    rgba(148, 121, 67, 0.847),
+    rgba(117, 93, 45, 0.847),
     rgba(120, 113, 113, 0.05)
   );
   z-index: -1;
@@ -1461,11 +1462,12 @@ textarea.w-select {
 }
 
 .sponsor-card-noise-bg.platinum {
-  opacity: 0.51;
+  opacity: 0.85;
   background-image: linear-gradient(
-    230deg,
-    rgba(81, 79, 79, 0.847),
-    rgba(120, 113, 113, 0.05)
+    140deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.4)
   );
   z-index: -1;
   /* background-image: url("https://assets.website-files.com/64749d7783acf7eedfcd9125/64749d7783acf7eedfcd9174_Noisy.png"); */
@@ -1482,6 +1484,22 @@ textarea.w-select {
   background-image: linear-gradient(
     230deg,
     rgba(174, 174, 174, 0.847),
+    rgba(120, 113, 113, 0.05)
+  );
+  z-index: -1;
+  /* background-image: url("https://assets.website-files.com/64749d7783acf7eedfcd9125/64749d7783acf7eedfcd9174_Noisy.png"); */
+  background-position: 0 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+.sponsor-card-noise-bg.fin {
+  opacity: 0.51;
+  background-image: linear-gradient(
+    230deg,
+    rgba(86, 83, 83, 0.9),
     rgba(120, 113, 113, 0.05)
   );
   z-index: -1;
